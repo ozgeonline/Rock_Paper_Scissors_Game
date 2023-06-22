@@ -1,0 +1,86 @@
+body{
+    font-family: 'Comfortaa', cursive;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content{
+    width: 100%;
+    max-width: 700px;
+    min-width: 500px;
+    height: 50vh;
+    text-align: center;
+    background-color: #fff200;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #fff200;
+}
+h1{
+    text-align: center;
+    color:#243b56 ;
+    letter-spacing:.1rem;
+    font-size: 2rem;
+    margin: 2rem;
+}
+#move{
+    color: #243b5680;
+}
+p{
+    font-size: 1.2rem;
+    text-align: center;
+    margin:1.5rem;
+    color: #243b56;
+    letter-spacing: .1rem;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+button{
+    border: none;
+    font-size: 3rem;
+    margin: 0 .5rem;
+    padding: 0.8rem ;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+}
+button:hover{
+    opacity: 0.8;
+}
+#rock{
+    background-color: #ff0054;
+}
+#paper{
+    background-color: #2d00f7;
+}
+#scissors{
+    background-color: #29bf12;
+}
+#result{
+    color: #2d00f7;
+    font-weight: bold;
+    text-shadow: 0 0 1px;
+    letter-spacing: .5rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+#user-score{
+    color: #ff0054;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+#computer-score{
+    color:  #2d00f7;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
